@@ -17,7 +17,7 @@ Instructions on How To Use this HTML:
 <style>
 body{font-family:Arial;font-size:.9em;background-color:#000;margin:0;padding:0;}
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript">function FluidVideo(){var e=$("iframe[src^='https://player.twitch.tv'], iframe[src^='https://mixer.com'], iframe[src^='https://twitch.tv'], object, embed"),t=$("div.autoresize");e.each(function(){$(this).attr("data-aspectRatio",this.height/this.width).removeAttr("height").removeAttr("width")});$(window).resize(function(){var n=t.width();e.each(function(){var e=$(this);e.width(n).height(n*e.attr("data-aspectRatio"))})}).resize()}}</script>
+<script type="text/javascript">function FluidVideo(){var e=$("iframe[src^='https://mixer.com'], iframe[src^='https://mixer.com'] object, embed"),t=$("div.autoresize");e.each(function(){$(this).attr("data-aspectRatio",this.height/this.width).removeAttr("height").removeAttr("width")});$(window).resize(function(){var n=t.width();e.each(function(){var e=$(this);e.width(n).height(n*e.attr("data-aspectRatio"))})}).resize()}}</script>
 </head>
 <body>
 <style>     
